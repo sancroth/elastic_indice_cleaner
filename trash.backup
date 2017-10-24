@@ -1,0 +1,4 @@
+awk ‘NR%2{printf “%s “,$0;next;}1’
+sed ‘s/ //g’
+awk ‘{print $2}’ > arxeio
+paste arxio1 arxio2
